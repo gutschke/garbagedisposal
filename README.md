@@ -7,7 +7,7 @@ use a unobtrusive capacitative push-button switch instead. While there are beaut
 options these days, none of them can switch a high-powered inductive load. A relay
 and some supporting hardware was in order.
 
-[![PCB Photo](https://raw.githubusercontent.com/gutschke/garbagedisposal/master/easyeda/photo.svg)](easyeda)
+[![PCB Photo](https://raw.githubusercontent.com/gutschke/garbagedisposal/master/easyeda/photo.svg?sanitize=true)](easyeda)
 
 The circuit board is densely packed and sufficiently compact to fit into a regular
 junction box. It is even possible to mount an outlet on top of the junction box.
@@ -20,7 +20,7 @@ junction box.
 
 # Schematics
 
-[![Schematics](https://raw.githubusercontent.com/gutschke/garbagedisposal/master/easyeda/schematics.svg)](easyeda)
+[![Schematics](https://raw.githubusercontent.com/gutschke/garbagedisposal/master/easyeda/schematics.svg?sanitize=true)](easyeda)
 
 # Bill of Material
 
