@@ -33,7 +33,7 @@ junction box.
 | F1 | [Fuse Holder](https://www.digikey.com/product-detail/en/wurth-electronics-inc/696103201002/732-11372-ND/7244556) |
 |    | [Fuse 250V 15A slow](https://www.digikey.com/product-detail/en/littelfuse-inc/0215015.MXP/F3251-ND/2023367) |
 | Q1 | [HUF76423 N-Channel Logic Level UltraFET](https://www.digikey.com/products/en?keywords=huf76423p3) |
-| R1 | [MOV 350 Varistor TMOV20RP275M](https://www.digikey.com/product-detail/en/littelfuse-inc/TMOV20RP275M/F4043-ND/1154461) |
+| R1 | [MOV 470V Varistor 14D471KR](https://www.digikey.com/product-detail/en/bourns-inc/MOV-14D471KTR/MOV-14D471KTRCT-ND/5775039) |
 | R2 | [10kOhm 1/4W](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-10K/10KQBK-ND/338) |
 | R3 | [10kOhm 1/4W](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-10K/10KQBK-ND/338) |
 | RELAY1 | [30A 5A SPST T9AS1D12-5](https://www.digikey.com/product-detail/en/T9AS1D12-5/PB1014-ND/1095335) |
