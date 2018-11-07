@@ -31,7 +31,7 @@ junction box.
 | D2 | [TVS Diode 185V 328V 1V5KE220CA](https://www.digikey.com/product-detail/en/1V5KE220CA/1V5KE220CACT-ND/3907941) |
 | D3 | [1N4004](https://www.digikey.com/product-detail/en/micro-commercial-co/1N4004-TP/1N4004-TPMSCT-ND/773691) |
 | F1 | [Fuse Holder](https://www.digikey.com/product-detail/en/wurth-electronics-inc/696103201002/732-11372-ND/7244556) |
-|    | [Fuse 125V 15A slow](https://www.digikey.com/product-detail/en/bel-fuse-inc/3SB-15-R/507-1537-ND/1009761) |
+|    | [Fuse 250V 15A slow](https://www.digikey.com/product-detail/en/littelfuse-inc/0215015.MXP/F3251-ND/2023367) |
 | Q1 | [HUF76423 N-Channel Logic Level UltraFET](https://www.digikey.com/products/en?keywords=huf76423p3) |
 | R1 | [MOV 350 Varistor TMOV20RP275M](https://www.digikey.com/product-detail/en/littelfuse-inc/TMOV20RP275M/F4043-ND/1154461) |
 | R2 | [10kOhm 1/4W](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-10K/10KQBK-ND/338) |
