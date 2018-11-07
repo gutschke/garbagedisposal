@@ -26,7 +26,7 @@ junction box.
 
 | Part | Description |
 | ---- | ----------- |
-| ACDC1 | [Recom 5V 4W AC/DC power supply](https://www.digikey.com/product-detail/en/3-101-414/486-3357-ND/7104553) |
+| ACDC1 | [Recom 5V 4W AC/DC power supply](https://www.alliedelec.com/recom-power-inc-rac04-05sa/70052290/) |
 | D1 | [TVS Diode 5.8V 10.5V 1.5KE6.8CA](https://www.digikey.com/product-detail/en/1.5KE6.8CA/1.5KE6.8CALFCT-ND/285845) |
 | D2 | [TVS Diode 185V 328V 1V5KE220CA](https://www.digikey.com/product-detail/en/1V5KE220CA/1V5KE220CACT-ND/3907941) |
 | D3 | [1N4004](https://www.digikey.com/product-detail/en/micro-commercial-co/1N4004-TP/1N4004-TPMSCT-ND/773691) |
@@ -38,7 +38,7 @@ junction box.
 | R3 | [10kOhm 1/4W](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-10K/10KQBK-ND/338) |
 | RELAY1 | [30A 5A SPST T9AS1D12-5](https://www.digikey.com/product-detail/en/T9AS1D12-5/PB1014-ND/1095335) |
 | U1 | [Atmel ATTiny45](https://www.digikey.com/product-detail/en/microchip-technology/ATTINY45-20PU/ATTINY45-20PU-ND/735465) |
-|    | [IC Socket AR 08 HZL-TT](https://www.digikey.com/product-detail/en/microchip-technology/ATTINY45-20PU/ATTINY45-20PU-ND/735465) |
+|    | [IC Socket AR 08 HZL-TT](https://www.digikey.com/product-detail/en/assmann-wsw-components/AR-08-HZL-TT/AE10011-ND/821765) |
 | BUTTON | [Schurter push button 3-101-414](https://www.digikey.com/product-detail/en/3-101-414/486-3357-ND/7104553) |
 | PCB | [Order from easydata.com](https://easyeda.com/zodiac_7307/garbage-disposal-relay) |
 
