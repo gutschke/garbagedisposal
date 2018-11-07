@@ -4,8 +4,10 @@
 Most continuous-operation garbage disposals are activated by either an air-switch or a
 wall-switch. Neither option really appealed to my design sense, and I wanted to 
 use a unobtrusive capacitative push-button switch instead. While there are beautiful
-options these days, none of them cannot switch a high-powered inductive load. A relay
-and some supporting hardware was in order.
+options these days, none of them can switch a high-powered inductive load. A relay
+and some supporting hardware was in order. As 1HP motors have some pretty high
+inrush currents, suitable protective devices had to be installed. Also, only
+some relays can handle inductive loads, so that limited our choice of parts.
 
 [![PCB Photo](https://raw.githubusercontent.com/gutschke/garbagedisposal/master/easyeda/photo.png)](easyeda)
 
