@@ -38,7 +38,7 @@ junction box.
 | R1 | [MOV 470V Varistor 14D471KR](https://www.digikey.com/product-detail/en/bourns-inc/MOV-14D471KTR/MOV-14D471KTRCT-ND/5775039) |
 | R2 | [10kOhm 1/4W](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-10K/10KQBK-ND/338) |
 | R3 | [10kOhm 1/4W](https://www.digikey.com/product-detail/en/yageo/CFR-25JB-52-10K/10KQBK-ND/338) |
-| RELAY1 | [30A 5A SPST T9GV1L24-5](https://www.digikey.com/product-detail/en/te-connectivity-potter-brumfield-relays/T9GV1L24-5/PB2416-ND/8345176) |
+| RELAY1 | [30A 5A SPST T9GV1L14-5](https://www.digikey.com/products/en?keywords=T9GV1L14-5) |
 | U1 | [Atmel ATTiny45](https://www.digikey.com/product-detail/en/microchip-technology/ATTINY45-20PU/ATTINY45-20PU-ND/735465) |
 |    | [IC Socket AR 08 HZL-TT](https://www.digikey.com/product-detail/en/assmann-wsw-components/AR-08-HZL-TT/AE10011-ND/821765) |
 | BUTTON | [Schurter push button 3-101-414](https://www.digikey.com/product-detail/en/3-101-414/486-3357-ND/7104553) |
