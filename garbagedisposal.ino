@@ -95,6 +95,10 @@ void loop() {
   if (on && seconds - on >= MAXRUNTIME) {
     // Safety first! Don't let the relay run for unlimited time.
    turnOff:
+    // Don't allow the motor to turn off right after having been turned on.
+    if (on && seconds - on < COOLOFF) {
+      delay((COOLOFF - (seconds - on)) * 1000);
+    }
     digitalWrite(RELAY, LOW);
     pinMode(LED, INPUT);
     // Don't allow motor to turn on again for a couple of seconds. This
