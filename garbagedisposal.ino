@@ -25,7 +25,8 @@
 
 #define DEBOUNCE    100
 #define PUSHANDHOLD 500
-#define MAXRUNTIME   60
+#define MAXRUNTIME   30
+#define COOLOFF       2
 
 #define LED           0
 #define RELAY         1
@@ -43,7 +44,7 @@ void setup() {
   pinMode(LED,    INPUT);
   pinMode(RELAY,  OUTPUT);
   pinMode(BUTTON, INPUT);
-  delay(1000);
+  delay(COOLOFF * 1000);
   sm = millis() | 1;
 }
 
@@ -65,7 +66,7 @@ void loop() {
     // Detected change in button state
     buttonState = b;
     // Debounce, and tell momentary from latching button push
-    if (!tm || m - tm > DEBOUNCE) {
+    if ((!tm && !momentary) || m - tm > DEBOUNCE) {
       if (!relayState) {
         // Relay is off. Turn it on, when button is pressed.
         if (buttonState) {
@@ -94,8 +95,20 @@ void loop() {
   if (on && seconds - on >= MAXRUNTIME) {
     // Safety first! Don't let the relay run for unlimited time.
    turnOff:
-    momentary = relayState = tm = on = 0;
+    // Don't allow the motor to turn off right after having been turned on.
+    if (on && seconds - on < COOLOFF) {
+      delay((COOLOFF - (seconds - on)) * 1000);
+    }
     digitalWrite(RELAY, LOW);
     pinMode(LED, INPUT);
+    // Don't allow motor to turn on again for a couple of seconds. This
+    // prevents users from rapidly turning the motor on and off in quick
+    // succession.
+    if (relayState) {
+      delay(COOLOFF * 1000);
+    }
+    while (digitalRead(BUTTON)) { }
+    buttonState = momentary = relayState = on = 0;
+    tm = millis() | 1;
   }
 }
