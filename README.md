@@ -48,11 +48,11 @@ junction box.
 
 # Source Code
 
-The circuit uses a microcontroler to add a couple of convenience features. A maximum
+The circuit uses a microcontroller to add a couple of convenience features. A maximum
 duty cycle of one minute is enforced. After a power-failure, the device stays off.
 Holding the button turns on the device until the button is released. On the other hand,
 briefly touching the button turns on the device until the button is touched a second
-time.
+time. The motor cannot be switched faster than every 2 seconds in order to avoid overloading the relay.
 
 [Source code](garbagedisposal.ino)
 
