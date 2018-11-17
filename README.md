@@ -28,7 +28,7 @@ junction box.
 
 | Part | Description |
 | ---- | ----------- |
-| ACDC1 | [Recom 5V 4W AC/DC power supply](https://www.digikey.com/products/en?keywords=T9GV1L14-5) |
+| ACDC1 | [Recom 5V 4W AC/DC power supply](https://www.digikey.com/product-detail/en/recom-power/RAC04-05SC-277/945-2100-5-ND/3906310) |
 | D1 | [TVS Diode 5.8V 10.5V 1.5KE6.8CA](https://www.digikey.com/product-detail/en/1.5KE6.8CA/1.5KE6.8CALFCT-ND/285845) |
 | D2 | [TVS Diode 185V 328V 1V5KE220CA](https://www.digikey.com/product-detail/en/1V5KE220CA/1V5KE220CACT-ND/3907941) |
 | D3 | [1N4004](https://www.digikey.com/product-detail/en/micro-commercial-co/1N4004-TP/1N4004-TPMSCT-ND/773691) |
