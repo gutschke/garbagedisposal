@@ -67,3 +67,14 @@ than every 2 seconds in order to avoid overloading the relay.
 
 [Source code](garbagedisposal.ino)
 
+# Estimate Cost
+
+Total cost for the project is between $90 and $120, depending on shipping costs
+and depending on how many of the common supplies are already on hand. The most
+expensive individual line item is the capacitative push-button, which by itself
+costs more than $30. It is really pretty though; and it can safely be handled
+with wet hands. The next item is probably the cost of the PCB. Shipping is a
+big factor here. Also, unless you use by-pass wires for the high-current paths,
+it should be made from 2oz copper board. That drives the cost up. Finally, I
+picked a high-quality power supply. Some cost could be shaved off by selecting
+a cheaper part.
