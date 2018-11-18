@@ -78,3 +78,21 @@ big factor here. Also, unless you use by-pass wires for the high-current paths,
 it should be made from 2oz copper board. That drives the cost up. Finally, I
 picked a high-quality power supply. Some cost could be shaved off by selecting
 a cheaper part.
+
+# Notes On Connecting The Push Button
+
+The button has a lot of pig tail wires; but we really only need to make four
+connections. Both black wires get connected to GND. The brown and one of the
+white wires get connected to 5V. The red, green, and blue wires get connected
+to LED. And the remaining white wire gets connected to BUTTON.
+
+Use heat shrink tubing and thermostat wire to make the connections. Don't
+forget to ensure proper strain relief.
+
+I wired the status LED to shine white. If you prefer a different color, don't
+connect all of the R/G/B wires. The LED lights up, when the R/G/B wires are
+connected to ground (i.e. black wires). The microcontroller lets the signal
+float, whenever the LED is supposed to be off.
+
+The push button (two white wires) makes a connection to 5V (brown wire). The
+microcontroller detects this signal.
