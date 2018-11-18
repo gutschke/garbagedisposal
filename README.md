@@ -54,7 +54,7 @@ inside the junction box.
 | | [Thermostat Wire](https://www.homedepot.com/p/Southwire-By-the-Foot-18-5-Brown-Solid-CU-CL2Thermostat-Wire-64169699/204725214) |
 | | [Copper Wire](https://www.homedepot.com/p/Gardner-Bender-14-AWG-18-ft-Primary-Wire-Spool-Black-AMW-314/300689786) |
 | | [Heat Shrink Tubing](https://www.amazon.com/Vktech-150pcs-Shrink-Tubing-Sleeving/dp/B00EXLPLTW) |
-| PCB | [Order from easydata.com](https://easyeda.com/zodiac_7307/garbage-disposal-relay) |
+| PCB | [Order from easyeda.com / jlcpcb.com](https://easyeda.com/zodiac_7307/garbage-disposal-relay) |
 
 # Source Code
 
