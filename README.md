@@ -67,7 +67,7 @@ than every 2 seconds in order to avoid overloading the relay.
 
 [Source code](garbagedisposal.ino)
 
-# Estimate Cost
+# Estimated Cost
 
 Total cost for the project is between $90 and $120, depending on shipping costs
 and depending on how many of the common supplies are already on hand. The most
