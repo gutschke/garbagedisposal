@@ -1,24 +1,25 @@
 # Garbage Disposal
 **Capacitative push-button switch for kitchen garbage disposal**
 
-Most continuous-operation garbage disposals are activated by either an air-switch or a
-wall-switch. Neither option really appealed to my design sense, and I wanted to 
-use a unobtrusive capacitative push-button switch instead. While there are beautiful
-options these days, none of them can switch a high-powered inductive load. A relay
-and some supporting hardware was in order. As 1HP motors have some pretty high
-inrush currents, suitable protective devices had to be installed. Also, only
-some relays can handle inductive loads, so that limited our choice of parts.
+Most continuous-operation garbage disposals are activated by either an
+air-switch or a wall-switch. Neither option really appealed to my design sense,
+and I wanted to use an unobtrusive capacitative push-button switch instead.
+While there are beautiful options these days, none of them can switch a
+high-powered inductive load. A relay and some supporting hardware was in order.
+As 1 HP motors have some pretty high in-rush currents, suitable protective
+devices had to be installed. Also, only some relays can handle inductive loads,
+so that limited our choice of parts.
 
 [![PCB Photo](https://raw.githubusercontent.com/gutschke/garbagedisposal/master/easyeda/photo.png)](easyeda)
 
-The circuit board is densely packed and sufficiently compact to fit into a regular
-junction box. It is even possible to mount an outlet on top of the junction box.
-I recommend using the powercord from a garbage disposal wiring kit to connect the
-junction box to an existing under-sink outlet. This way, it can easily be disconnected
-for servicing.
+The circuit board is densely packed and sufficiently compact to fit into a
+regular junction box. It is even possible to mount an outlet on top of the
+junction box. I recommend using the powercord from a garbage disposal wiring
+kit to connect the junction box to an existing under-sink outlet. This way, it
+can easily be disconnected for servicing.
 
-Nylon stand-off bolts should be used to securely mount the circuit board inside the
-junction box.
+Nylon stand-off bolts should be used to securely mount the circuit board
+inside the junction box.
 
 # Schematics
 
@@ -44,15 +45,25 @@ junction box.
 | U1 | [Atmel ATTiny45](https://www.digikey.com/product-detail/en/microchip-technology/ATTINY45-20PU/ATTINY45-20PU-ND/735465) |
 |    | [IC Socket AR 08 HZL-TT](https://www.digikey.com/product-detail/en/assmann-wsw-components/AR-08-HZL-TT/AE10011-ND/821765) |
 | BUTTON | [Schurter push button 3-101-414](https://www.digikey.com/product-detail/en/3-101-414/486-3357-ND/7104553) |
+| | [Wiring Kit](https://www.amazon.com/ClearMax-Universal-Garbage-Disposal-Assembly/dp/B01N7KAQIL) |
+| | [Nylon Spacers](https://www.amazon.com/gp/product/B077STGQVD) |
+| | [Junction Box](https://www.homedepot.com/p/RACO-4-in-Welded-Square-Electrical-Box-with-Raised-Ground-8189/100539828) |
+| | [Mud Ring](https://www.homedepot.com/p/4-in-Square-Single-Device-Mud-Ring-Raised-1-1-4-in-8775/100686459) |
+| | [Outlet](https://www.homedepot.com/p/Leviton-Decora-15-Amp-Residential-Grade-Self-Grounding-Duplex-Outlet-White-R52-05325-0WS/100357024) |
+| | [Wall Plate](https://www.homedepot.com/p/Legrand-Pass-and-Seymour-1-Gang-Decora-Wall-Plate-Stainless-Steel-SL26CC20/202655348) |
+| | [Thermostat Wire](https://www.homedepot.com/p/Southwire-By-the-Foot-18-5-Brown-Solid-CU-CL2Thermostat-Wire-64169699/204725214) |
+| | [Copper Wire](https://www.homedepot.com/p/Gardner-Bender-14-AWG-18-ft-Primary-Wire-Spool-Black-AMW-314/300689786) |
+| | [Heat Shrink Tubing](https://www.amazon.com/Vktech-150pcs-Shrink-Tubing-Sleeving/dp/B00EXLPLTW) |
 | PCB | [Order from easydata.com](https://easyeda.com/zodiac_7307/garbage-disposal-relay) |
 
 # Source Code
 
-The circuit uses a microcontroller to add a couple of convenience features. A maximum
-duty cycle of one minute is enforced. After a power-failure, the device stays off.
-Holding the button turns on the device until the button is released. On the other hand,
-briefly touching the button turns on the device until the button is touched a second
-time. The motor cannot be switched faster than every 2 seconds in order to avoid overloading the relay.
+The circuit uses a microcontroller to add a couple of convenience features. A
+maximum duty cycle of 30 seconds  is enforced. After a power-failure, the
+device stays off. Holding the button turns on the device until the button is
+released. On the other hand, briefly touching the button turns on the device
+until the button is touched a second time. The motor cannot be switched faster
+than every 2 seconds in order to avoid overloading the relay.
 
 [Source code](garbagedisposal.ino)
 
