@@ -46,11 +46,11 @@ inside the junction box.
 |    | [IC Socket AR 08 HZL-TT](https://www.digikey.com/product-detail/en/assmann-wsw-components/AR-08-HZL-TT/AE10011-ND/821765) |
 | BUTTON | [Schurter push button 3-101-414](https://www.digikey.com/product-detail/en/3-101-414/486-3357-ND/7104553) |
 | | [Wiring Kit](https://www.amazon.com/ClearMax-Universal-Garbage-Disposal-Assembly/dp/B01N7KAQIL) |
-| | [Nylon Spacers](https://www.amazon.com/gp/product/B077STGQVD) |
-| | [Junction Box](https://www.homedepot.com/p/RACO-4-in-Welded-Square-Electrical-Box-with-Raised-Ground-8189/100539828) |
-| | [Mud Ring](https://www.homedepot.com/p/4-in-Square-Single-Device-Mud-Ring-Raised-1-1-4-in-8775/100686459) |
+| | [Nylon Spacers](https://www.amazon.com/gp/product/B071DF6ST4) |
+| | [Junction Box](https://www.homedepot.com/p/RACO-4-in-Raised-Ground-Welded-Square-Electrical-Box-8232/100578083) |
+| | [Extension Ring](https://www.homedepot.com/p/4-in-Square-Drawn-Extension-Ring-1-1-2-in-Deep-with-1-2-and-3-4-in-KO-s-8203/100002268) |
+| | [Cover Plate](https://www.homedepot.com/p/RACO-4-in-Square-Exposed-Work-Cover-Single-Device-3-in-1-Universal-Cover-808U/204486935) |
 | | [Outlet](https://www.homedepot.com/p/Leviton-Decora-15-Amp-Residential-Grade-Self-Grounding-Duplex-Outlet-White-R52-05325-0WS/100357024) |
-| | [Wall Plate](https://www.homedepot.com/p/Legrand-Pass-and-Seymour-1-Gang-Decora-Wall-Plate-Stainless-Steel-SL26CC20/202655348) |
 | | [Thermostat Wire](https://www.homedepot.com/p/Southwire-By-the-Foot-18-5-Brown-Solid-CU-CL2Thermostat-Wire-64169699/204725214) |
 | | [Copper Wire](https://www.homedepot.com/p/Gardner-Bender-14-AWG-18-ft-Primary-Wire-Spool-Black-AMW-314/300689786) |
 | | [Heat Shrink Tubing](https://www.amazon.com/Vktech-150pcs-Shrink-Tubing-Sleeving/dp/B00EXLPLTW) |
