@@ -46,7 +46,7 @@ inside the junction box.
 |    | [IC Socket AR 08 HZL-TT](https://www.digikey.com/product-detail/en/assmann-wsw-components/AR-08-HZL-TT/AE10011-ND/821765) |
 | BUTTON | [Schurter push button 3-101-414](https://www.digikey.com/product-detail/en/3-101-414/486-3357-ND/7104553) |
 | | [Wiring Kit](https://www.amazon.com/ClearMax-Universal-Garbage-Disposal-Assembly/dp/B01N7KAQIL) |
-| | [Nylon Spacers](https://www.amazon.com/gp/product/B071DF6ST4) |
+| | [Nylon Spacers](https://www.amazon.com/dp/B073XZ3H4M) |
 | | [Junction Box](https://www.homedepot.com/p/RACO-4-in-Raised-Ground-Welded-Square-Electrical-Box-8232/100578083) |
 | | [Extension Ring](https://www.homedepot.com/p/4-in-Square-Drawn-Extension-Ring-1-1-2-in-Deep-with-1-2-and-3-4-in-KO-s-8203/100002268) |
 | | [Cover Plate](https://www.homedepot.com/p/RACO-4-in-Square-Exposed-Work-Cover-Single-Device-3-in-1-Universal-Cover-808U/204486935) |
